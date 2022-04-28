@@ -1,0 +1,45 @@
+@import '../../styles/variables.scss';
+
+.nominee {
+  background-color: $primary-background;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: all 0.2s ease-in-out;
+
+  h4 {
+    flex: 1;
+    text-align: center;
+    margin: 20px 0 20px;
+  }
+
+  &:hover {
+    background-color: $hover-background;
+    color: $hover-font-color;
+  }
+
+  button {
+    padding: 12px 40px;
+    margin-top: 20px;
+    cursor: pointer;
+    color: $font-color;
+    background-color: $primary-background;
+    transition: all 0.2s ease-in-out;
+    border: 1px solid;
+
+    &:hover {
+      color: $hover-font-color;
+      background-color: $hover-background;
+    }
+  }
+}
+
+.selected {
+  background-color: $hover-background;
+}
+
+.photo {
+  border-radius: 50%;
+}
