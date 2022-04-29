@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import Nominee from '../Nominee'
 import styles from './Category.module.scss'
-import { SelectedNomineesType } from '../../pages/index'
+import { SelectedNomineesType } from '@/pages/index'
 
 interface Props extends CategoryType {
   onSelect: (categoryId: string, nomineeId: string) => void;

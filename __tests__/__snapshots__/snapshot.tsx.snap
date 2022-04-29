@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders homepage unchanged 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <main
+      class="main"
+    >
+      <h1
+        class="title"
+      >
+        AWARDS 2021
+      </h1>
+      <div />
+    </main>
+    <button
+      class="submit"
+    >
+      Submit Ballot
+    </button>
+  </div>
+</div>
+`;

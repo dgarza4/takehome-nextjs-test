@@ -2,9 +2,9 @@ import { useEffect, useState } from 'react'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import Category from '../components/Category'
-import Dialog from '../components/Dialog'
-import styles from '../styles/Home.module.scss'
+import Category from '@/components/Category'
+import Dialog from '@/components/Dialog'
+import styles from '@/styles/Home.module.scss'
 
 export interface SelectedNomineesType {
   [key: string]: undefined | { [key: string]: undefined | boolean }
